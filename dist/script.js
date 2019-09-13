@@ -1,9 +1,9 @@
 //margens 
 var margin = { top: 20, right: 50, bottom: 40, left: 30 };
 
-var widther = window.outerWidth / 2.2;
+//var widther = window.outerWidth / 2.2;
 
-//var widther = 600;
+var widther = 600;
 
 var width = widther - margin.left - margin.right,
   height = 400 - margin.top - margin.bottom;
@@ -232,6 +232,6 @@ function numTicks(widther) {
     console.log("return 4");
   } else {
     return 12;
-    console.log("return 5");
+    console.log("return 2");
   }
 }
