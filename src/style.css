@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker:100,300,400|Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Blinker', sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 300; 
+  color: #2b2b2b;
+  background-color: #cbcbcb
+}
+
+.container{
+  max-width: 450px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Press Start 2P', serif;
+  color: #f05a3f;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+a {
+  color: #000;
+  border-bottom: 3px #3fd5f0 solid;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #3fd5f0
+}
+
+.g-hed {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:22px; 
+  margin: 3px 0;
+}
+
+.g-source-bold {
+  text-align: left;
+  font-size:10px;
+  font-weight: bold; 
+}
+
+.g-source {
+  margin: 10px 0;
+}
+
+.g-source-bold {
+  text-align: left;
+  font-size:10px; 
+}
+
+.g-intro {
+  font-size: 16px;
+  margin: 0px 0px 10px 0px;
+}
+
+.g-labels {
+  fill: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.axis line {
+  fill: none;
+  stroke: #ccc;
+  stroke-dasharray: 2px 3px;
+  shape-rendering: crispEdges;
+  stroke-width: 1px;
+}
+
+.axis text {
+  font-size: 13px;
+  pointer-events: none;
+  fill: #7e7e7e;
+}
+
+.y.axis text {
+  text-anchor: end !important;
+  font-size:14px;
+  fill: #7e7e7e;
+}
+
+.domain {
+  display: none;
+}
+
+.line {
+  stroke:  #f05a3f;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus {
+  font-size: 12px;
+  fill: #333333;
+  width: 200px;
+}
+
+.focus circle {
+  fill: #3fd5f0;
+}
+
