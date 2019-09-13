@@ -86,7 +86,7 @@ function ready(err, data) {
   d3
     .select(".g-intro")
     .html(
-      "Saiba quanto tempo dura cada episódio do <a href='https://piaui.folha.uol.com.br/radio-piaui/foro-de-teresina/' target='_blank'>Foro de Teresina</a>."
+      "Saiba quanto tempo dura cada episódio do podcast <a href='https://piaui.folha.uol.com.br/radio-piaui/foro-de-teresina/' target='_blank'>Foro de Teresina</a>."
     );
 
   data.sort(function(a, b) {
